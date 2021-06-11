@@ -38,15 +38,15 @@ function MyRotatingBox() {
 }
 
 
-function SotKazz() {
-  return (
-    <p
-      onClick={() => alert("Fa' attentione Ue!")}
-    >
-      Sollazzi?!
-    </p>
-  );
-}
+// function SotKazz() {
+//   return (
+//     <p
+//       onClick={() => alert("Fa' attentione Ue!")}
+//     >
+//       Sollazzi?!
+//     </p>
+//   );
+// }
 
 
 
@@ -54,7 +54,7 @@ function SotKazz() {
 function App() {
   return (
     <div id="canvas-container" className="App">
-      <SotKazz />
+      {/* <SotKazz /> */}
       <Canvas>
         <MyRotatingBox />
         <ambientLight intensity={0.1} />
